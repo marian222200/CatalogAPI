@@ -11,11 +11,12 @@ The API manages [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_de
 ![image](https://user-images.githubusercontent.com/30511514/197760857-8d3098d7-cd42-4003-a428-a499e19a36da.png)
 
 ## Requests examples
-🔹 Get all items list:
+
+### Get all items list:
 
 ![image](https://user-images.githubusercontent.com/30511514/197766805-5818bf13-a20b-49a7-b7e2-c5d74c0f9f9e.png)
 
-🔹 Create an item:
+### Create an item:
 
 ![image](https://user-images.githubusercontent.com/30511514/197767136-a69e9235-de1b-41d7-8851-5ebbad334fda.png)
 
@@ -25,13 +26,13 @@ And now when we request get items list, the new item is there:
 
 ![image](https://user-images.githubusercontent.com/30511514/197767603-7d6273aa-5323-47ee-82be-1f178ad902de.png)
 
-🔹 Get a specific item (the golden apple id is used as example):
+### Get a specific item (the golden apple id is used as example):
 
 ![image](https://user-images.githubusercontent.com/30511514/197767866-ad3e3ad1-8def-4c69-971a-cdfaf035513c.png)
 
 ![image](https://user-images.githubusercontent.com/30511514/197768214-9f404e13-0ad8-4622-ba1a-bc2f8f1bab74.png)
 
-🔹 Update (golden apple):
+### Update (golden apple):
 
 ![image](https://user-images.githubusercontent.com/30511514/197768660-7bc889de-a174-4400-8976-bf09bd7705e4.png)
 
@@ -41,7 +42,7 @@ The change is visible:
 
 ![image](https://user-images.githubusercontent.com/30511514/197768760-70bb80db-9c75-4c61-8546-8cb50fe63ff6.png)
 
-🔹 Delete (Hellstone Ring used as example):
+### Delete (Hellstone Ring used as example):
 
 ![image](https://user-images.githubusercontent.com/30511514/197769072-08005af3-8f2d-41bd-a4e1-256f806bf237.png)
 
