@@ -74,7 +74,36 @@ The items list after delete:
 
 ![image](https://user-images.githubusercontent.com/30511514/197769575-37eefd1d-9873-48c2-94fe-16040d4150e0.png)
 
+🔹 Migrations and Database Context (from Entity Framework).
 
+![image](https://user-images.githubusercontent.com/30511514/197773509-d4c86bb6-809c-41a3-8246-495c5608fdc3.png)
 
+## Repository service
 
+For the repository I used dependency Inversion Principle. I used an interface that the controller class depends on, and the class that I used to communicate with the database implements that interface. 
 
+![image](https://user-images.githubusercontent.com/30511514/197772995-93efb986-c0aa-4527-94ca-d225808285b4.png)
+
+By having our code depend upon abstractions we are decoupling implementations from each other. This makes the code cleaner, easier to modify and easier to reuse. In this case the database "manager" class can be modified independently from the main class. More about: [Depedency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection ".net documentation - Depedency injection").
+
+![image](https://user-images.githubusercontent.com/30511514/197771445-da2f7e86-5b41-4aec-8a54-fd222f7549ba.png)
+
+![image](https://user-images.githubusercontent.com/30511514/197772046-697c303a-b384-453d-b7d0-00cd7f13b3f7.png)
+
+## Conclusion
+
+In creating this API I remembered a lot of the knoledge that I learned at the ASP.net MVC 5 course that I did at University back in 2020, and also I got a more profound grasp on the C# and the .NET Framework.
+
+## Resources
+
+Besides the [C# documentation](https://learn.microsoft.com/en-us/dotnet/csharp/ "C# doc"), [.NET documentation](https://learn.microsoft.com/en-us/dotnet/ ".NET doc") and [Entity Framework documentation](https://learn.microsoft.com/en-us/ef/ "Entity Framework doc") I also watched multiple tutorials on youtube, I will list the most important ones below:
+
+🔹 [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8&ab_channel=freeCodeCamp.org "Starter C# course - Youtube")
+
+🔹 [C#.NET Tutorials](https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef "Programming with Mosh Youtube Playlist")
+
+🔹 [C# Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvRX6xK1oi0reKci6ignjdSa "In depth C# language tutorial Youtube playlist from Derek Banas") - My personal favourite
+
+🔹 [.NET 5 REST API Tutorial - Build From Scratch With C#](https://www.youtube.com/watch?v=ZXdFisA_hOY&ab_channel=freeCodeCamp.org "Complete API tutorial .NET 5 - Youtube")
+
+🔹 [.NET 6 Web API with Entity Framework Core and SQL Server. Angular 13 CRUD App. Full stack.](https://www.youtube.com/watch?v=rzPFEuKlPhM&ab_channel=JamesSchneider "Full Stack Web App - Youtube")
