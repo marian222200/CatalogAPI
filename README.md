@@ -42,6 +42,7 @@ The change is visible:
 ![image](https://user-images.githubusercontent.com/30511514/197768760-70bb80db-9c75-4c61-8546-8cb50fe63ff6.png)
 
 🔹 Delete (Hellstone Ring used as example):
+
 ![image](https://user-images.githubusercontent.com/30511514/197769072-08005af3-8f2d-41bd-a4e1-256f806bf237.png)
 
 ![image](https://user-images.githubusercontent.com/30511514/197769099-3f0f2da1-c2c3-40a4-a2f7-99ae4dfd2bd4.png)
