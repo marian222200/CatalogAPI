@@ -1,6 +1,6 @@
 # CatalogAPI
 
-A demo REST API that manages a colection of items for sale. It can be used as a backend for a simple site.
+A demo REST API that manages a collection of items for sale. It can be used as a backend for a simple site.
 
 ![image](https://user-images.githubusercontent.com/30511514/197758809-7ebb4135-bb9b-41af-abf6-8cdabd523766.png)
 
